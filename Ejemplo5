@@ -1,0 +1,11 @@
+//Atributos
+int n1 = 0;
+//Metodos
+public void contador(){
+    n1 = solicitar al usuario;
+    if(n1.lenght > 1){
+        System.out.println("El número de dígitos del numero ingresado es 2 digitos ");    
+    }else{
+    System.out.println("El número de dígitos del numero ingresado es 1);
+    }
+}

@@ -1,0 +1,22 @@
+//Atributos
+int n1 = 0;
+int n2 = 0;
+int n3 = 0;
+int suma = 0;
+float promedio = 0;
+//Metodos
+public void pedir(){
+    n1 = pedir al usuario;
+    n2 = pedir al usuario;
+    n3 = pedir al usuario;
+}
+
+public void promedioCondicion(){
+    suma = n1 + n2 + n3;
+    promedio = suma / 3 ;
+    if(promeido>=7){
+        System.out.println("El estudiante  ha sido promeiconado")
+    }else{
+        System.out.println("El estudiante NO ha sido promeiconado")
+    }
+}
